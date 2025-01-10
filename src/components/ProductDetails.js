@@ -206,12 +206,7 @@ const ProductDetails = () => {
   };
 
   const handleBuyNow = () => {
-    window.open(
-      '/cart',
-      '_blank',
-      'noopener,noreferrer'
-    );
-    // Store product data in localStorage for the new window
+    // Store product data in localStorage
     localStorage.setItem('cartProduct', JSON.stringify({
       name: productData.name,
       model: model,
@@ -220,6 +215,8 @@ const ProductDetails = () => {
       price: productData.price,
       image: `${model}.jpg`
     }));
+    // Navigate to cart page
+    navigate('/cart');
   };
 
   return (

@@ -20,6 +20,6 @@ export const images = {
     workspace: getImagePath('/google-workspace.jpg')
   },
   banners: {
-    unveiling: getImagePath('/unveiling-banner.png')
+    unveiling: getImagePath('/unveiling.png')
   }
 }; 
