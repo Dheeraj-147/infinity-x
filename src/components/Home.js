@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import { images } from '../utils/images';
 
 const Home = () => {
   return (
@@ -94,7 +95,7 @@ const Home = () => {
         <div 
           className="absolute inset-0 w-full h-full bg-cover bg-center"
           style={{ 
-            backgroundImage: 'url("/images/backgrounds/explore-bg.png")',
+            backgroundImage: `url(${images.products.backgrounds.explore})`,
             backgroundAttachment: 'fixed',
             zIndex: 0
           }}

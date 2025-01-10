@@ -12,10 +12,11 @@ function App() {
       <Navbar />
       <main className="pt-16">
         <Routes>
+          <Route path="/products/:category/:model" element={<ProductDetails />} />
+          <Route path="/products/:category" element={<ProductDetails />} />
+          <Route path="/cart" element={<Cart />} />
           <Route path="/infinityx" element={<Home />} />
           <Route path="/" element={<Home />} />
-          <Route path="/products/:category/:model" element={<ProductDetails />} />
-          <Route path="/cart" element={<Cart />} />
           {/* Add more routes as needed */}
         </Routes>
       </main>
