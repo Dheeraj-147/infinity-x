@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/infinityx/static/css/main.96a304ec.css",
-    "main.js": "/infinityx/static/js/main.b82cba26.js",
+    "main.js": "/infinityx/static/js/main.7602d581.js",
     "static/media/logo.png": "/infinityx/static/media/logo.f4af799785804d14f140.png",
     "index.html": "/infinityx/index.html",
     "main.96a304ec.css.map": "/infinityx/static/css/main.96a304ec.css.map",
-    "main.b82cba26.js.map": "/infinityx/static/js/main.b82cba26.js.map"
+    "main.7602d581.js.map": "/infinityx/static/js/main.7602d581.js.map"
   },
   "entrypoints": [
     "static/css/main.96a304ec.css",
-    "static/js/main.b82cba26.js"
+    "static/js/main.7602d581.js"
   ]
 }
