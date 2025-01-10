@@ -11,8 +11,8 @@ A modern React-based website for InfinityX, showcasing interactive display solut
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/infinity-x.git
-cd infinity-x
+git clone https://github.com/Dheeraj-147/infinityx.git
+cd infinityx
 ```
 
 2. Install dependencies:
