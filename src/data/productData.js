@@ -27,18 +27,18 @@ export const productCategories = {
   'Interactive Flat Panels': {
     description: 'Professional display solutions for education and business',
     models: [
-      { name: 'V6 Classic Series', image: '/images/products/v6-classic.jpg', specs: 'Standard 4K Display' },
-      { name: 'V6 ViewPro Series', image: '/images/products/v6-viewpro.jpg', specs: 'Advanced Touch Features' },
-      { name: 'V6 Transcend Series', image: '/images/products/v6-transcend.jpg', specs: 'Premium Display Solution' },
+      { name: 'V6 Classic Series', image: images.products.getProductImage('v6-classic.jpg'), specs: 'Standard 4K Display' },
+      { name: 'V6 ViewPro Series', image: images.products.getProductImage('v6-viewpro.jpg'), specs: 'Advanced Touch Features' },
+      { name: 'V6 Transcend Series', image: images.products.getProductImage('v6-transcend.jpg'), specs: 'Premium Display Solution' },
     ],
   },
   'Commercial Display': {
     description: 'Versatile display solutions for various applications',
     series: [
-      { name: 'CMA Series', image: '/images/products/cma.jpg' },
-      { name: 'CMA-T Series', image: '/images/products/cma-t.jpg' },
-      { name: 'CMD Series', image: '/images/products/cmd.jpg' },
-      { name: 'UW Series', image: '/images/products/uw.jpg' },
+      { name: 'CMA Series', image: images.products.getProductImage('cma.jpg') },
+      { name: 'CMA-T Series', image: images.products.getProductImage('cma-t.jpg') },
+      { name: 'CMD Series', image: images.products.getProductImage('cmd.jpg') },
+      { name: 'UW Series', image: images.products.getProductImage('uw.jpg') },
     ],
   },
   'LED Display': {

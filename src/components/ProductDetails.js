@@ -218,7 +218,7 @@ const ProductDetails = () => {
       specs: productData.specs[0].value,
       size: productData.specs[0].value,
       price: productData.price,
-      image: `/images/products/${model}.jpg`
+      image: `${model}.jpg`
     }));
   };
 

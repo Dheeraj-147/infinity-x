@@ -9,5 +9,17 @@ export const images = {
     backgrounds: {
       explore: getImagePath('/backgrounds/explore-bg.png'),
     }
+  },
+  education: {
+    classroom: getImagePath('/education-classroom.jpg'),
+    interactive: getImagePath('/classroom-interactive.png'),
+    science: getImagePath('/classroom-science.png')
+  },
+  corporate: {
+    meeting: getImagePath('/corporate-meeting.jpg'),
+    workspace: getImagePath('/google-workspace.jpg')
+  },
+  banners: {
+    unveiling: getImagePath('/unveiling-banner.png')
   }
 }; 

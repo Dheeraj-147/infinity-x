@@ -15,7 +15,7 @@ const Home = () => {
             playsInline 
             className="w-full h-full object-cover"
           >
-            <source src="/videos/home-page-video.mp4" type="video/mp4" />
+            <source src={`${process.env.PUBLIC_URL}/videos/home-page-video.mp4`} type="video/mp4" />
           </video>
           <div className="absolute inset-0 bg-black bg-opacity-50"></div>
         </div>
@@ -49,7 +49,7 @@ const Home = () => {
             {/* Education Solution */}
             <div className="flex flex-col items-center">
               <img 
-                src="/images/education-classroom.jpg"
+                src={images.products.getProductImage('education-classroom.jpg')}
                 alt="Education Solution" 
                 className="w-full h-[300px] object-cover rounded-lg mb-8"
               />
@@ -69,7 +69,7 @@ const Home = () => {
             {/* Corporate Solution */}
             <div className="flex flex-col items-center">
               <img 
-                src="/images/corporate-meeting.jpg"
+                src={images.products.getProductImage('corporate-meeting.jpg')}
                 alt="Corporate Solution" 
                 className="w-full h-[300px] object-cover rounded-lg mb-8"
               />
@@ -170,12 +170,12 @@ const Home = () => {
               {/* First Column */}
               <div className="space-y-4">
                 <img 
-                  src="/images/classroom-interactive.png"
+                  src={images.products.getProductImage('classroom-interactive.png')}
                   alt="Classroom Interactive" 
                   className="w-full h-56 object-cover rounded-lg"
                 />
                 <img 
-                  src="/images/classroom-science.png"
+                  src={images.products.getProductImage('classroom-science.png')}
                   alt="Science Class" 
                   className="w-full h-72 object-cover rounded-lg"
                 />
@@ -184,12 +184,12 @@ const Home = () => {
               {/* Second Column */}
               <div className="space-y-4">
                 <img 
-                  src="/images/corporate-meeting.png"
+                  src={images.products.getProductImage('corporate-meeting.png')}
                   alt="Corporate Meeting" 
                   className="w-full h-72 object-cover rounded-lg"
                 />
                 <img 
-                  src="/images/google-workspace.jpg"
+                  src={images.products.getProductImage('google-workspace.jpg')}
                   alt="Google Workspace" 
                   className="w-full h-56 object-contain bg-white rounded-lg p-8"
                 />
@@ -203,7 +203,7 @@ const Home = () => {
       <section className="py-12 bg-white relative">
         <div className="max-w-7xl mx-auto px-4">
           <img 
-            src="/images/unveiling-banner.png"
+            src={images.products.getProductImage('unveiling-banner.png')}
             alt="Unveiling the future of Smart Classrooms with Interactive Panels" 
             className="w-full rounded-lg shadow-lg"
           />

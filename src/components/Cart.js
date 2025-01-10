@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from 'react';
+import { images } from '../utils/images';
 
 const Cart = () => {
   const [product, setProduct] = useState({});
@@ -86,7 +87,7 @@ const Cart = () => {
           <h2 className="text-2xl font-bold mb-4">Product Summary</h2>
           <div className="space-y-4">
             <img 
-              src={product.image} 
+              src={images.products.getProductImage(product.image)}
               alt={product.name}
               className="w-full rounded-lg"
             />
